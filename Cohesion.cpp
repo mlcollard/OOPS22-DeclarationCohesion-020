@@ -21,5 +21,14 @@ int main() {
         double testAverage;
     }
 
+    // variable ordering & style #2
+    {
+        std::vector<std::string> exerciseNames, testNames;
+
+        std::vector<int> exercises, tests;
+
+        double exerciseAverage, testAverage;
+    }
+
     return 0;
 }
